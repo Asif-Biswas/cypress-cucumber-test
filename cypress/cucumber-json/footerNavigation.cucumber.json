@@ -1,0 +1,132 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Footer Navigation",
+    "line": 1,
+    "id": "footer-navigation",
+    "tags": [],
+    "uri": "footerNavigation.feature",
+    "elements": [
+      {
+        "id": "footer-navigation;user-scrolls-to-the-bottom-of-the-page-and-clicking-a-link-navigates-to-the-correct-page",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "User scrolls to the bottom of the page and clicking a link navigates to the correct page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "a web browser is at the \"https://cart.com\" homepage",
+            "result": {
+              "status": "passed",
+              "duration": 108362000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user click \"Pixel\"",
+            "result": {
+              "status": "passed",
+              "duration": 4983000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "a page with \"Unlock the path to incrementality.\" appears",
+            "result": {
+              "status": "passed",
+              "duration": 180000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "footer-navigation;user-scrolls-to-the-bottom-of-the-page-and-clicking-a-link-navigates-to-the-correct-page",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "User scrolls to the bottom of the page and clicking a link navigates to the correct page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "a web browser is at the \"https://cart.com\" homepage",
+            "result": {
+              "status": "passed",
+              "duration": 7180000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user click \"Inventory Storage\"",
+            "result": {
+              "status": "passed",
+              "duration": 4595000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "a page with \"Big footprint. Small price tag.\" appears",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: Timed out after waiting `60000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `60000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.\n    at timedOutWaitingForPageLoad (https://www.cart.com/__cypress/runner/cypress_runner.js:158308:72)\n    at https://www.cart.com/__cypress/runner/cypress_runner.js:158628:16\nFrom previous event:\n    at CommandQueue.run (https://www.cart.com/__cypress/runner/cypress_runner.js:186670:21)\n    at CommandQueue.run (https://www.cart.com/__cypress/runner/cypress_runner.js:172308:15)\n    at $Cy.cy.<computed> [as then] (https://www.cart.com/__cypress/runner/cypress_runner.js:173306:18)\nFrom Your Spec Code:\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\footerNavigation.feature:21:6)\n    at Context.resolveAndRunStepDefinition (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\footerNavigation.feature:10456:29)\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\footerNavigation.feature:9777:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "footer-navigation;user-scrolls-to-the-bottom-of-the-page-and-clicking-a-link-navigates-to-the-correct-page",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "User scrolls to the bottom of the page and clicking a link navigates to the correct page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "a web browser is at the \"https://cart.com\" homepage",
+            "result": {
+              "status": "passed",
+              "duration": 5637000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user click \"About Us\"",
+            "result": {
+              "status": "passed",
+              "duration": 5224000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "a page with \"Power to the brands\" appears",
+            "result": {
+              "status": "passed",
+              "duration": 250000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

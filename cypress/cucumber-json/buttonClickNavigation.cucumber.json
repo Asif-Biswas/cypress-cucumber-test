@@ -1,0 +1,93 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Random button click Navigation",
+    "line": 1,
+    "id": "random-button-click-navigation",
+    "tags": [],
+    "uri": "buttonClickNavigation.feature",
+    "elements": [
+      {
+        "id": "random-button-click-navigation;user-clicks-on-random-button",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "User clicks on random button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "a web browser is at the \"https://www.cart.com/storefront/online-store\" page",
+            "result": {
+              "status": "passed",
+              "duration": 23552000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user click \"Comparison\" button",
+            "result": {
+              "status": "passed",
+              "duration": 3257000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "a page with \"Feature Comparison\" appears",
+            "result": {
+              "status": "failed",
+              "duration": 4160000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Feature Comparison' but never did.\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\buttonClickNavigation.feature:21:6)\n    at Context.resolveAndRunStepDefinition (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\buttonClickNavigation.feature:10456:29)\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\buttonClickNavigation.feature:9777:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "random-button-click-navigation;user-clicks-on-random-button",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "User clicks on random button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "a web browser is at the \"https://www.cart.com/storefront/online-store/cart-shipping\" page",
+            "result": {
+              "status": "passed",
+              "duration": 5397000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user click \"Book a demo\" button",
+            "result": {
+              "status": "passed",
+              "duration": 4311000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "a page with \"Book a chat\" appears",
+            "result": {
+              "status": "passed",
+              "duration": 190000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

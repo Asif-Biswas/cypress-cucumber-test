@@ -1,0 +1,112 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Navigation for logged in users",
+    "line": 1,
+    "id": "navigation-for-logged-in-users",
+    "tags": [],
+    "uri": "navigationForLoggedInUser.feature",
+    "elements": [
+      {
+        "id": "navigation-for-logged-in-users;fill-in-the-form-and-submit",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Fill in the form and submit",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I login",
+            "result": {
+              "status": "passed",
+              "duration": 10446000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the user click the dropdown menu",
+            "result": {
+              "status": "passed",
+              "duration": 8819000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "click the \"Fulfillment\" link",
+            "result": {
+              "status": "passed",
+              "duration": 1876000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the user should be redirected to the page with the title \"Fulfillment\"",
+            "result": {
+              "status": "passed",
+              "duration": 294000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation-for-logged-in-users;fill-in-the-form-and-submit",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Fill in the form and submit",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I login",
+            "result": {
+              "status": "passed",
+              "duration": 4884000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the user click the dropdown menu",
+            "result": {
+              "status": "passed",
+              "duration": 8675000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "click the \"Storefront\" link",
+            "result": {
+              "status": "passed",
+              "duration": 1813000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the user should be redirected to the page with the title \"Give it a name\"",
+            "result": {
+              "status": "passed",
+              "duration": 866000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

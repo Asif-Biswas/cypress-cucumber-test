@@ -1,0 +1,151 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Navigation",
+    "line": 1,
+    "id": "navigation",
+    "tags": [],
+    "uri": "navigationn.feature",
+    "elements": [
+      {
+        "id": "navigation;hover-over-the-navigation-menu-and-click-on-a-link-to-navigate-to-the-page-with-the-correct-text",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Hover over the navigation menu and click on a link to navigate to the page with the correct text",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "a web browser is at the cart.com homepage",
+            "result": {
+              "status": "undefined",
+              "duration": 91000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user hover over the menu \"Storefront\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "click \"Storefront Analytics\" link",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "a page with \"A bird's-eye view of your online store data.\" appears",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation;hover-over-the-navigation-menu-and-click-on-a-link-to-navigate-to-the-page-with-the-correct-text",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Hover over the navigation menu and click on a link to navigate to the page with the correct text",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "a web browser is at the cart.com homepage",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user hover over the menu \"Fulfillment\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "click \"Order Management\" link",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "a page with \"The who, what, when, where and why of every order.\" appears",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation;hover-over-the-navigation-menu-and-click-on-a-link-to-navigate-to-the-page-with-the-correct-text",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Hover over the navigation menu and click on a link to navigate to the page with the correct text",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "a web browser is at the cart.com homepage",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user hover over the menu \"Funding\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "click \"Growth Capital\" link",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "a page with \"Ecommerce-focused funding.\" appears",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
